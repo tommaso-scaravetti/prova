@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>A.D.2107 | Animated Short</title>
+
+<meta name="description" content="Insert Your Site Description" />
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="A.D. 2107">A.D. 2107</a>
+        </div>
+
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	  <li><a href="index.html"class="external">Il corto</a></li>
+                <li><a href="Modelli.html" class="external">Modelli</a></li>
+                <li class="current"><a href="Texture.html" class="external">Texture e luci</a></li>
+                <li><a href="Animazione.html" class="external">Rigging e Animazioni</a></li>
+                <li><a href="Render.html" class="external">Rendering</a></li>
+			        	<li><a href="Post-produzione.html" class="external">Post-produzione</a></li>
+            </ul>
+        </nav>
+  </div>
+
+  <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+     <source src="_include/img/Pioggia Sitobbello_comp.m4v" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">A.D. 2107</h1>
+          <h3 class="display-3">Tommaso Scaravetti</h3>
+          <h4 class="display-3">Corso di 3D Animation - A.A. 2019-2020</h4>
+        </div>
+      </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+  <p><i class="arrow down freccia"></i></p>
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Texture</h2>
+                <h3 class="title-description">I materiali e le texture PBR</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+
+    <!-- People -->
+    <div class="row">
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        <div class="image-wrap">
+          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Il vicolo" href="_include/img/texture/A.png">
+              <span class="overlay-img"></span>
+              <span class="overlay-text-thumb">/il vicolo</span>
+            </a>
+              <div>
+              <img src="_include/img/texture/A.png" alt="Le texture e i materiali del vicolo.">
+
+              </div>
+          </div>
+            <h3 class="profile-name">Il vicolo</h3>
+            <p class="profile-description">I focus per quest'ambientazione sono stati 2: in primis le <a href="https://academy.substance3d.com/courses/the-pbr-guide-part-2">texture PBR</a> dei vari edifici e degli elementi di contorno; secondariamente i materiali, in particolare lo shader "Emission" delle varie insegne, importantissime per dare il mood e il look tipico del genere che cercavo. Le texture PBR (quindi che rispondono al contesto ambientale) sono state costrite nel mio caso dalla texture "Albedo", da  quella "Roughness" e da quella delle Normali (collegata al Principled BSDF dal nodo "Normal Map"). Prima di assegnare le texture ho effettuato l'Unwrapping delle facce dei modelli per un'applicazione corretta.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        <div class="image-wrap">
+          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/La metropoli" href="_include/img/texture/B.png">
+              <span class="overlay-img"></span>
+              <span class="overlay-text-thumb">/La metropoli</span>
+            </a>
+              <div>
+              <img src="_include/img/texture/B.png" alt="Le texture e i materiali della metropoli.">
+
+              </div>
+          </div>
+            <h3 class="profile-name">La metropoli</h3>
+            <p class="profile-description">Le texture su cui mi sono concentrato sono quelle dei grattacieli: ho usato texture di facciate di grattacieli applicate alle singole facciate con l'utilizzo dello "UV Unwrapping". Inoltre ho usato un "Glass" shader unito alle texture per dare l'effetto di riflessione del vetro. Un altro elemento importante sono stati gli schermi LED, per i quali non ho usato solo dei piani con un'immagine applicata come texture, ma (seguendo un <a href="https://www.youtube.com/watch?v=erOZIrj-rRg&t=74s">tutorial</a>) ho voluto dare la texture dei pixel, che rende ancora di più l'effetto digitale assieme ad uno shader emissione. Anche in questo caso ho assegnato uno shader "Emission" (in accordo con la palette principale) su alcuni elementi per rimandare al mondo Cyberpunk.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        <div class="image-wrap">
+          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Il Gado" href="_include/img/texture/C.png">
+              <span class="overlay-img"></span>
+              <span class="overlay-text-thumb">/il Gado</span>
+            </a>
+              <div>
+              <img src="_include/img/texture/C.png" alt="Le texture e i materiali del Gado.">
+
+              </div>
+          </div>
+            <h3 class="profile-name">Il Gado</h3>
+            <p class="profile-description">I materiali del Gado sono stati i più semplici: mi è bastato variare dei parametri del "Pricipled BSDF" shader come il fattore "Metalness" a 1.000, il fattore "Roughness" e il colore. Per finalizzare le texture e aggiungere quel dettaglio in più che fa la differenza, ho usato l'addon <a href="https://gumroad.com/l/DECALmachine/">DecalMachine</a>, che permette di creare delle decalcomanie senza costi aggiuntivi a livello di poligoni (questo addon è stato usato anche per alcuni dettagli degli ambienti come i graffiti del vicolo). Anche per gli accessori del Gado sono stati usati semplici materiali.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Galleria -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title-description">Galleria</h2>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Il vicolo</li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/L'asfalto" href="_include/img/texture/1a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/1a_p.png" alt="Ho iniziato a texturizzare quest'ambientazione dalla strada, elemento principale di questa scena. Ho usato una texture PBR di un asfalto umido e con pozzanghere per rendere i riflessi dell'acqua.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/I marciapiedi" href="_include/img/texture/2a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/2a_p.png" alt="Anche qui ho usato una texture PBR, aggiungendo sopra a questa (attraverso un Mix Shader) uno shader riflettente per rendere anche qui il bagnato.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Gli edifici" href="_include/img/texture/3a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/3a_p.png" alt="Ho cercato di differenziare quanto più possibile le texture degli edifici per renderle più varie e divesificare la scena. Anche qui ho usato texture PBR con le 4 mappe: Albedo, Roughness, Normal, Height.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="video" title="/Le insegne" href="_include/img/texture/4a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/4a_p.png" alt="Per le insegne non ho usato alcuna texture, ma semplicemente uno shader Emission (con un input Fresnel e una ColorRamp per dare un leggero bordo più scuro).">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/I dettagli in metallo" href="_include/img/texture/5a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/5a_p.png" alt="Per i dettagli più piccoli (come grate, ringhiere o scale) mi sono servito di semplici shader con il parametro Metalness a 1.0, regolando di volta in volta il parametro Roughness.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le texture degli elementi secondari" href="_include/img/texture/6a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/6a_p.png" alt="Per gli elementi secondari ma comunque importanti (come i condizionatori) ho voluto utilizzare una texture più dettagliata con ad esempio l'aggiunta di chiazze di ruggine.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="video" title="/Gli elementi aggiuntivi" href="_include/img/texture/7a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/7a_p.png" alt="Anche per gli elementi aggiuntivi della strada, ho utilizzato texture o materiali in base all'oggetto: per esempio per i sacchi della spazzatura ho utilizzato uno shader nero molto riflettente per rendere la plastica.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Altri edifici" href="_include/img/texture/8a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/8a_p.png" alt="Una altro esempio di texture di edifici.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le texture dei dettagli" href="_include/img/texture/9a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/9a_p.png" alt="Ad alcuni elementi, come i cassonetti, ho assegnato delle texture specifiche e realistiche.">
+                            </li>
+                        	<!-- End Item Project -->
+                        </ul>
+                    </section>
+
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+
+        <!-- La metropoli -->
+        <div class="row">
+          <div class="span3">
+              <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                      <li class="type-work">La metropoli</li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+
+
+            <div class="span9">
+              <div class="row">
+                  <section id="projects">
+                      <ul id="thumbs">
+
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le texture dei grattacieli" href="_include/img/texture/1b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/1b_p.png" alt="Ho usato fotografie notturne di finestre di grattacieli a cui ho poi assegnato un leggero valore Emission. Successivamente ho aggiunto con il Mix Shader un nodo Glossy per rendere la riflessione delle finestre.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le texture dei grattacieli" href="_include/img/texture/2b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/2b_p.png" alt="Esempio di una delle texture applicate ai palazzi.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le texture dei grattacieli" href="_include/img/texture/3b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/3b_p.png" alt="Esempio di una delle texture applicate ai palazzi.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 video">
+                              <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/I dettagli neon dei palazzi" href="_include/img/texture/4b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/4b_p.png" alt="/I dettagli neon dei palazzi sono stati ottenuti, come nel caso delle insegne, con un semplice shader Emission.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le aggiunte ai palazzi" href="_include/img/texture/5b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/5b_p.png" alt="Per le aggiunte ai palazzi di elementi secondari come antenne, travi o ringhiere, è stato utilizzato un semplice shader metallico.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Gli schermi led" href="_include/img/texture/6b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/6b_p.png" alt="Per gli schermi led ho utilizzato una texture che rendesse l'effetto di pixer RGB, associata di volta in volta ad immagini pubblicitarie.">
+                            </li>
+                          <!-- End Item Project -->
+
+                        <!-- Item Project and Filter Name -->
+                                      <li class="item-thumbs span3 design">
+                                          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Gli schermi led" href="_include/img/texture/7b.png">
+                                              <span class="overlay-img"></span>
+                                                <span class="overlay-img-thumb font-icon-plus"></span>
+                                            </a>
+                                            <!-- Thumb Image and Description -->
+                                            <img src="_include/img/texture/7b_p.png" alt="Un altro esempio di texture Led e del gruppo di nodi che la compone.">
+                                        </li>
+                                      <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 video">
+                              <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Gli edifici di sfondo" href="_include/img/texture/8b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/8b_P.png" alt="Gli edifici su cui si sarebbe trovato il Gado nella seconda scena del corto sono stati texturizzati analogamente a quelli del vicolo, anche per rendere la continuità.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le luci proiettate" href="_include/img/texture/9b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/9b_p.png" alt="I fasci di luce emessi da alcuni edifici (tipici anch'essi dl genere) sono stati resi con uno shader Emission collegato all'imput Volume dell'oggetto.">
+                            </li>
+                          <!-- End Item Project -->
+
+
+                        </ul>
+                    </section>
+
+              </div>
+            </div>
+        </div>
+        <!-- Metropoli -->
+
+        <!-- Il robot -->
+        <div class="row">
+          <div class="span3">
+              <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                      <li class="type-work">Il gado</li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+
+
+            <div class="span9">
+              <div class="row">
+                  <section id="projects">
+                      <ul id="thumbs">
+
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Metal shader" href="_include/img/texture/1c.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/1c_p.png" alt="Le parti cromate della testa, delle mani e dei piedi sono state rese semplicemente con uno shader metallico con un paramentro Roughness molto basso.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Il secondo Metal shader" href="_include/img/texture/2c.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/2c_p.png" alt="Tuttavia per differenziare alcune parti del Gado come le mani, ho usato assieme al primo un secondo shader metallico leggermente più scuro e con un parametro Roughness più alto.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/il vetro e l'occhio" href="_include/img/texture/3c.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/3c_p.png" alt="La parte principale del volto è stata resa con uno shader molto riflettente per rendere il vetro e un'mmagine (realizzata da me su Illustrator) per l'occhio.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 video">
+                              <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/DecalMachine" href="_include/img/texture/4c.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/4c_p.png" alt="I dettagli finali sono stati inseriti con l'addon DecalMachine senza ultriori costi a livello di poligoni.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/La micro UZI" href="_include/img/texture/5c.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/5c_p.png" alt="Per l'arma ho utilizzato un semplice shader di metallo nero con il paramentro Roughness molto basso.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/I vestiti" href="_include/img/texture/6c.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/texture/6c_p.png" alt="Per i vestiti volevo rendere un materiale plastico e piuttosto riflettente per dare un look futuristico (prendendo ispirazione da Blade Runner). Ho quindi usato un Glass shader con l'indice IOR a 1.33.">
+                            </li>
+                          <!-- End Item Project -->
+
+                        </ul>
+                    </section>
+
+              </div>
+            </div>
+        </div>
+        <!-- Metropoli -->
+
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- Librerie utilizzati -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h4 class="title-description">Librerie utilizzate</h4>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+
+    <!-- People -->
+    <div class="row">
+
+        <!-- Textures.com -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/texture/Textures.com-logo.png" alt="Texture.com">
+            </div>
+            <h3 class="profile-name">Textures.com</h3>
+            <p class="profile-description"><a href="https://www.textures.com/">Il sito</a> principale che ho usato per le texture PBR e per le texture dei palazzi. Anche se a pagamento offre dei crediti giornalieri gratuiti.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/texture/cgbookcase-logo.png" alt="CG-Bookcase">
+            </div>
+            <h3 class="profile-name">CG-Bookcase</h3>
+            <p class="profile-description"><a href="https://www.cgbookcase.com/">Sito</a> che ho utilizzato per scaricare alcune texture PBR come la strada nella prima ambientazione, quella del vicolo. Ha texture gratis anche in risoluzioni altissime come il 4K.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+      <div class="span4 profile">
+          <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">+</span>
+                </div>
+                <img src="_include/img/texture/Poliigon-logo.jpg" alt="Poliigon">
+            </div>
+            <h3 class="profile-name">Poliigon</h3>
+            <p class="profile-description"><a href="https://www.poliigon.com/">Sito</a>, fondato da Andrew Price, che offre texture di livello molto alto. Benchè sia a pagamento offre alcune texture gratuitamente.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+<!-- Luci -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Luci</h2>
+                <h3 class="title-description">HDRI e luci</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+
+    <!-- People -->
+    <div class="row">
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+
+            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/IL vicolo" href="_include/img/luci/A.png">
+                <span class="overlay-img"></span>
+                <span class="overlay-text-thumb">/IL VICOLO</span>
+              </a>
+          <div>
+          <img src="_include/img/luci/A.png" alt="Le luci del VICOLO.">
+        </div>
+            </div>
+            <h3 class="profile-name">Il vicolo</h3>
+            <p class="profile-description">L'illuminazione per il vicolo è costituita da diverse tipologie: HDRI, Sun, Point e Spot Lights. Per quanto riguarda il colore (fatta eccezione per HDRI e Sun Lights che hanno dato l'illuminazione notturna di partenza) sono stati utilizzati i tre colori stabiliti in partenza per dare il look cyberpunk: il fucsia, il viola e l'azzurro. Le luci sono state collocate in punti chiave per esaltare i dettagli e il soggetto in scena. Fonti di luce sono costituite anche dalle insegne luminose e dalle Spot Lights che sono servite a simulare le luci dei lampioni. </p>
+
+
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+
+                  <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/la metropoli" href="_include/img/luci/B.png">
+                      <span class="overlay-img"></span>
+                      <span class="overlay-text-thumb">/la Metropoli</span>
+                    </a>
+                <div>
+                <img src="_include/img/luci/B.png" alt="Le luci della città.">
+              </div>
+            </div>
+            <h3 class="profile-name">La metropoli</h3>
+            <p class="profile-description">La scena della metropoli è stata illuminata soprattutto da un HDRI preso da <a href="https://hdrihaven.com/">HDRI Haven</a> con 3 Sun Lights. Fonti di luce sono state anche le texture dei palazzi a cui era stata assegnato un valore di Emissione, e i pannelli Led, anch'essi con uno shader di "Emission". I palazzi su cui si trova il personaggio sono stati illuminati in modo analogo al vicolo.</p>
+
+
+        </div>
+        <!-- End Profile -->
+
+
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Galleria -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title-description">Galleria</h2>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Il vicolo</li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/HDRI" href="_include/img/luci/1a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/1a_p.png" alt="L'HDRI di partenza è servita a dare l'illuminazione notturna di base alla scena. Ho usato un'intensità molto bassa a 0.2.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/sun lights" href="_include/img/luci/2a_p.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/2a_p.png" alt="Per dare una maggiore e più realistica illuminazione ambientale ho usato 3 Sun lights, anche in questo caso ad intensità molto bassa.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/le luci degli edifici" href="_include/img/luci/3a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/3a.png" alt="Le luci degli edifici hanno costituito un'altra fonte di luce, importante per far risaltare i dettagli.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/Le insegne" href="_include/img/luci/4a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/4a.png" alt="Le insegne, con indice di Emission a 1.0, sono state un'altra fonte di illuminazione.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/point Lights" href="_include/img/luci/5a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/5a.png" alt="Le Point light (dei colori della palette princilpale) sparse in tutto il vicolo sono state una fonte di luce fondamentale per definire le forme e dare il look Cyberpunk alla scena.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/i lampioni" href="_include/img/luci/6a.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/6a.png" alt="Anche i lampioni hanno costituito una fonte di luce fondamentale per dare più realismo alla scena.">
+                            </li>
+                        	<!-- End Item Project -->
+
+                        </ul>
+                    </section>
+
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+
+        <!-- La metropoli -->
+        <div class="row">
+          <div class="span3">
+              <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                      <li class="type-work">La metropoli</li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+
+
+            <div class="span9">
+              <div class="row">
+                  <section id="projects">
+                      <ul id="thumbs">
+
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/hdri" href="_include/img/luci/1b_p.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/1b.png" alt="Anche in questa scena è stata usata un HDRI per dare l'illuminazione notturna di base.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/gli schermi e i neon" href="_include/img/luci/2b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/2b.png" alt="Gli schermi e gli elementi neon hanno fornito altre fonti di luce, indispensabili per dare anche il look finale alla scena.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="/le finestre" href="_include/img/luci/3b.png">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/luci/3b.png" alt="Le texture delle finestre, con un leggero valore Emission, hanno contribuito ad illumunare la scena.">
+                            </li>
+                          <!-- End Item Project -->
+
+
+                        </ul>
+                    </section>
+
+              </div>
+            </div>
+        </div>
+        <!-- Metropoli -->
+
+
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2020 A.D.2107 by Tommaso Scaravetti</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
